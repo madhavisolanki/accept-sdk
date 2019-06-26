@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "81e6a70d72cd8e719eccfbc74c443da6"
+build_time: [1561503289, 118962000]
+inputs:
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Network/AccepSDKtHttp.swift": [1561491627, 341459862]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Interface/AcceptSDKBaseInterface.swift": [1561491627, 338397263]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/AcceptBuilder/AcceptSDKBaseInterfaceBuilder.swift": [1561491627, 348934521]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/AcceptBuilder/AcceptSDKBaseURLBuilder.swift": [1561491627, 346843834]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Validators/AcceptSDKCardFieldsValidator.swift": [1561491627, 346141077]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Response/AcceptSDKErrorResponse.swift": [1561491627, 339495785]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/AcceptSDKHandler.swift": [1561491627, 341957884]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Network/AcceptSDKHttpConnection.swift": [1561491627, 340724854]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/AcceptSDKInternal.swift": [1561491627, 342776862]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Request/AcceptSDKPaymentRequest.swift": [1561491627, 343481661]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/AcceptSDKSettings.swift": [1561491627, 342350293]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Validators/AcceptSDKStringValidator.swift": [1561491627, 345728956]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/AcceptBuilder/AcceptSDKTokenAPIBuilder.swift": [1561491627, 347767353]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Interface/AcceptSDKTokenInterface.swift": [1561491627, 338826140]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/AcceptBuilder/AcceptSDKTokenInterfaceBuilder.swift": [1561491627, 347290357]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Response/AcceptSDKTokenResponse.swift": [1561491627, 339920441]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Request/FingerPrint.swift": [1561491627, 344307622]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Request/MerchantAuthenticaton.swift": [1561491627, 343884358]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/AuthorizeNetAccept/AcceptSDK/Request/SecurePaymentContainerRequest.swift": [1561491627, 345019059]

@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AcceptSDKEnvironment"
+- "AcceptSDKHandler"
+provides-nominal:
+- "18AuthorizeNetAccept0C14SDKEnvironmentO"
+- "18AuthorizeNetAccept0C10SDKHandlerC"
+provides-member:
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", ""]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", ""]
+provides-dynamic-lookup:
+- "getTokenWithRequest"
+depends-top-level:
+- "=="
+- "AcceptSDKEnvironment"
+- "AcceptSDKErrorResponse"
+- "AcceptSDKHandler"
+- !private "AcceptSDKInternal"
+- "AcceptSDKRequest"
+- !private "AcceptSDKSettings"
+- "AcceptSDKTokenResponse"
+- "AssignmentPrecedence"
+- "Int"
+- "NSObject"
+- "String"
+- !private "~="
+depends-member:
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "=="]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "ENV_LIVE"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "ENV_TEST"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "RawValue"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "String"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "_rawHashValue"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "deinit"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "hash"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "hashValue"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "init"]
+- ["18AuthorizeNetAccept0C14SDKEnvironmentO", "rawValue"]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", "AcceptSDKEnvironment"]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", "AcceptSDKErrorResponse"]
+- !private ["18AuthorizeNetAccept0C10SDKHandlerC", "AcceptSDKInternal"]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", "AcceptSDKRequest"]
+- !private ["18AuthorizeNetAccept0C10SDKHandlerC", "AcceptSDKSettings"]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", "AcceptSDKTokenResponse"]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", "deinit"]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", "getTokenWithRequest"]
+- ["18AuthorizeNetAccept0C10SDKHandlerC", "init"]
+- !private ["18AuthorizeNetAccept0C11SDKInternalC", "getToken"]
+- !private ["18AuthorizeNetAccept0C11SDKInternalC", "init"]
+- !private ["18AuthorizeNetAccept0C10SDKRequestC", "validate"]
+- !private ["18AuthorizeNetAccept0C11SDKSettingsC", "acceptSDKEnvironment"]
+- !private ["18AuthorizeNetAccept0C11SDKSettingsC", "sharedInstance"]
+- !private ["s7CVarArgP", "AcceptSDKInternal"]
+- !private ["s7CVarArgP", "AcceptSDKSettings"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "acceptSDKEnvironment"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "validate"]
+- !private ["s28CustomDebugStringConvertibleP", "AcceptSDKInternal"]
+- !private ["s28CustomDebugStringConvertibleP", "AcceptSDKSettings"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "acceptSDKEnvironment"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s23CustomStringConvertibleP", "AcceptSDKInternal"]
+- !private ["s23CustomStringConvertibleP", "AcceptSDKSettings"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "acceptSDKEnvironment"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- ["SQ", "=="]
+- !private ["SQ", "AcceptSDKInternal"]
+- !private ["SQ", "AcceptSDKSettings"]
+- ["SQ", "ENV_LIVE"]
+- ["SQ", "ENV_TEST"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "acceptSDKEnvironment"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "validate"]
+- ["SH", "=="]
+- !private ["SH", "AcceptSDKInternal"]
+- !private ["SH", "AcceptSDKSettings"]
+- ["SH", "ENV_LIVE"]
+- ["SH", "ENV_TEST"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "acceptSDKEnvironment"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "validate"]
+- ["So8NSObjectC", "AcceptSDKEnvironment"]
+- ["So8NSObjectC", "AcceptSDKErrorResponse"]
+- !private ["So8NSObjectC", "AcceptSDKInternal"]
+- ["So8NSObjectC", "AcceptSDKRequest"]
+- !private ["So8NSObjectC", "AcceptSDKSettings"]
+- ["So8NSObjectC", "AcceptSDKTokenResponse"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "acceptSDKEnvironment"]
+- ["So8NSObjectC", "getTokenWithRequest"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "validate"]
+- !private ["So8NSObjectP", "AcceptSDKInternal"]
+- !private ["So8NSObjectP", "AcceptSDKSettings"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "acceptSDKEnvironment"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "validate"]
+- ["SY", "=="]
+- ["SY", "ENV_LIVE"]
+- ["SY", "ENV_TEST"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AcceptSDKInternal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AcceptSDKSettings"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "acceptSDKEnvironment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "validate"]
+depends-nominal:
+- "18AuthorizeNetAccept0C14SDKEnvironmentO"
+- "18AuthorizeNetAccept0C10SDKHandlerC"
+- !private "18AuthorizeNetAccept0C11SDKInternalC"
+- !private "18AuthorizeNetAccept0C10SDKRequestC"
+- !private "18AuthorizeNetAccept0C11SDKSettingsC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "SY"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept-umbrella.h"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/build/AcceptSDK/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AuthorizeNetAccept.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "be170590a94a71ec9dce233553894d0b"

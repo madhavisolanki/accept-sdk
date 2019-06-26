@@ -1,0 +1,356 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AcceptSDKTokenResponseKeys"
+- "AcceptSDKTokenResponse"
+- "OpaqueData"
+- "Messages"
+- "Message"
+provides-nominal:
+- "18AuthorizeNetAccept0C20SDKTokenResponseKeysV"
+- "18AuthorizeNetAccept0C16SDKTokenResponseC"
+- "18AuthorizeNetAccept10OpaqueDataC"
+- "18AuthorizeNetAccept8MessagesC"
+- "18AuthorizeNetAccept7MessageC"
+provides-member:
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", ""]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", ""]
+- ["18AuthorizeNetAccept10OpaqueDataC", ""]
+- ["18AuthorizeNetAccept8MessagesC", ""]
+- ["18AuthorizeNetAccept7MessageC", ""]
+provides-dynamic-lookup:
+- "getCode"
+- "getDataDescriptor"
+- "getDataValue"
+- "getMessages"
+- "getOpaqueData"
+- "getResultCode"
+- "getText"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "AcceptSDKResponse"
+- "AcceptSDKTokenResponse"
+- "AcceptSDKTokenResponseKeys"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Dictionary"
+- "Message"
+- "Messages"
+- "NSError"
+- "NSObject"
+- "OpaqueData"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["18AuthorizeNetAccept0C11SDKResponseV", "kResultCodeErrorValueKey"]
+- !private ["18AuthorizeNetAccept0C16SDKTokenResponseC", "AcceptSDKTokenResponseKeys"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "AnyObject"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "Dictionary"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "Messages"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "OpaqueData"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "String"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "deinit"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "getMessages"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "getOpaqueData"]
+- ["18AuthorizeNetAccept0C16SDKTokenResponseC", "init"]
+- !private ["18AuthorizeNetAccept0C16SDKTokenResponseC", "messages"]
+- !private ["18AuthorizeNetAccept0C16SDKTokenResponseC", "opaqueData"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "init"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kCodeKey"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kDataDescriptorKey"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kDataValueKey"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kMessageKey"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kMessagesKey"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kOpaqueDataKey"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kResultCodeKey"]
+- ["18AuthorizeNetAccept0C20SDKTokenResponseKeysV", "kTextKey"]
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "AcceptSDKResponse"]
+- !private ["s7CVarArgP", "AcceptSDKTokenResponseKeys"]
+- !private ["s7CVarArgP", "Message"]
+- !private ["s7CVarArgP", "Messages"]
+- !private ["s7CVarArgP", "OpaqueData"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "dataDescriptor"]
+- !private ["s7CVarArgP", "dataValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "localizedDescription"]
+- !private ["s7CVarArgP", "messages"]
+- !private ["s7CVarArgP", "opaqueData"]
+- !private ["s7CVarArgP", "resultCode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["Sl", "append"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "AcceptSDKResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "AcceptSDKTokenResponseKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "Messages"]
+- !private ["s28CustomDebugStringConvertibleP", "OpaqueData"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "dataDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "dataValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "messages"]
+- !private ["s28CustomDebugStringConvertibleP", "opaqueData"]
+- !private ["s28CustomDebugStringConvertibleP", "resultCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "AcceptSDKResponse"]
+- !private ["s23CustomStringConvertibleP", "AcceptSDKTokenResponseKeys"]
+- !private ["s23CustomStringConvertibleP", "Message"]
+- !private ["s23CustomStringConvertibleP", "Messages"]
+- !private ["s23CustomStringConvertibleP", "OpaqueData"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "dataDescriptor"]
+- !private ["s23CustomStringConvertibleP", "dataValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "localizedDescription"]
+- !private ["s23CustomStringConvertibleP", "messages"]
+- !private ["s23CustomStringConvertibleP", "opaqueData"]
+- !private ["s23CustomStringConvertibleP", "resultCode"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "AcceptSDKResponse"]
+- !private ["SQ", "AcceptSDKTokenResponseKeys"]
+- !private ["SQ", "Message"]
+- !private ["SQ", "Messages"]
+- !private ["SQ", "OpaqueData"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "code"]
+- !private ["SQ", "dataDescriptor"]
+- !private ["SQ", "dataValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "localizedDescription"]
+- !private ["SQ", "messages"]
+- !private ["SQ", "opaqueData"]
+- !private ["SQ", "resultCode"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "text"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "AcceptSDKResponse"]
+- !private ["SH", "AcceptSDKTokenResponseKeys"]
+- !private ["SH", "Message"]
+- !private ["SH", "Messages"]
+- !private ["SH", "OpaqueData"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "code"]
+- !private ["SH", "dataDescriptor"]
+- !private ["SH", "dataValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "localizedDescription"]
+- !private ["SH", "messages"]
+- !private ["SH", "opaqueData"]
+- !private ["SH", "resultCode"]
+- !private ["SH", "subscript"]
+- !private ["SH", "text"]
+- !private ["18AuthorizeNetAccept7MessageC", "AcceptSDKTokenResponseKeys"]
+- ["18AuthorizeNetAccept7MessageC", "AnyObject"]
+- ["18AuthorizeNetAccept7MessageC", "Dictionary"]
+- ["18AuthorizeNetAccept7MessageC", "NSError"]
+- ["18AuthorizeNetAccept7MessageC", "String"]
+- !private ["18AuthorizeNetAccept7MessageC", "code"]
+- ["18AuthorizeNetAccept7MessageC", "deinit"]
+- ["18AuthorizeNetAccept7MessageC", "getCode"]
+- ["18AuthorizeNetAccept7MessageC", "getText"]
+- ["18AuthorizeNetAccept7MessageC", "init"]
+- !private ["18AuthorizeNetAccept7MessageC", "text"]
+- !private ["18AuthorizeNetAccept8MessagesC", "AcceptSDKResponse"]
+- !private ["18AuthorizeNetAccept8MessagesC", "AcceptSDKTokenResponseKeys"]
+- ["18AuthorizeNetAccept8MessagesC", "AnyObject"]
+- ["18AuthorizeNetAccept8MessagesC", "Array"]
+- ["18AuthorizeNetAccept8MessagesC", "Dictionary"]
+- ["18AuthorizeNetAccept8MessagesC", "Message"]
+- ["18AuthorizeNetAccept8MessagesC", "NSError"]
+- ["18AuthorizeNetAccept8MessagesC", "String"]
+- ["18AuthorizeNetAccept8MessagesC", "deinit"]
+- ["18AuthorizeNetAccept8MessagesC", "getMessages"]
+- ["18AuthorizeNetAccept8MessagesC", "getResultCode"]
+- ["18AuthorizeNetAccept8MessagesC", "init"]
+- !private ["18AuthorizeNetAccept8MessagesC", "messages"]
+- !private ["18AuthorizeNetAccept8MessagesC", "resultCode"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["So8NSCodingP", "localizedDescription"]
+- !private ["So9NSCopyingP", "localizedDescription"]
+- !private ["So7NSErrorC", "localizedDescription"]
+- !private ["So8NSObjectC", "AcceptSDKResponse"]
+- !private ["So8NSObjectC", "AcceptSDKTokenResponseKeys"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "Dictionary"]
+- ["So8NSObjectC", "Message"]
+- ["So8NSObjectC", "Messages"]
+- ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "OpaqueData"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "code"]
+- ["So8NSObjectC", "dataDescriptor"]
+- ["So8NSObjectC", "dataValue"]
+- ["So8NSObjectC", "getCode"]
+- ["So8NSObjectC", "getDataDescriptor"]
+- ["So8NSObjectC", "getDataValue"]
+- ["So8NSObjectC", "getMessages"]
+- ["So8NSObjectC", "getOpaqueData"]
+- ["So8NSObjectC", "getResultCode"]
+- ["So8NSObjectC", "getText"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "localizedDescription"]
+- ["So8NSObjectC", "messages"]
+- ["So8NSObjectC", "opaqueData"]
+- ["So8NSObjectC", "resultCode"]
+- ["So8NSObjectC", "text"]
+- !private ["So8NSObjectP", "AcceptSDKResponse"]
+- !private ["So8NSObjectP", "AcceptSDKTokenResponseKeys"]
+- !private ["So8NSObjectP", "Message"]
+- !private ["So8NSObjectP", "Messages"]
+- !private ["So8NSObjectP", "OpaqueData"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "code"]
+- !private ["So8NSObjectP", "dataDescriptor"]
+- !private ["So8NSObjectP", "dataValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "localizedDescription"]
+- !private ["So8NSObjectP", "messages"]
+- !private ["So8NSObjectP", "opaqueData"]
+- !private ["So8NSObjectP", "resultCode"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["18AuthorizeNetAccept10OpaqueDataC", "AcceptSDKTokenResponseKeys"]
+- ["18AuthorizeNetAccept10OpaqueDataC", "AnyObject"]
+- ["18AuthorizeNetAccept10OpaqueDataC", "Dictionary"]
+- ["18AuthorizeNetAccept10OpaqueDataC", "String"]
+- !private ["18AuthorizeNetAccept10OpaqueDataC", "dataDescriptor"]
+- !private ["18AuthorizeNetAccept10OpaqueDataC", "dataValue"]
+- ["18AuthorizeNetAccept10OpaqueDataC", "deinit"]
+- ["18AuthorizeNetAccept10OpaqueDataC", "getDataDescriptor"]
+- ["18AuthorizeNetAccept10OpaqueDataC", "getDataValue"]
+- ["18AuthorizeNetAccept10OpaqueDataC", "init"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["ST", "append"]
+- !private ["ST", "subscript"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AcceptSDKResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AcceptSDKTokenResponseKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Messages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OpaqueData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "opaqueData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "18AuthorizeNetAccept0C11SDKResponseV"
+- "18AuthorizeNetAccept0C16SDKTokenResponseC"
+- "18AuthorizeNetAccept0C20SDKTokenResponseKeysV"
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "18AuthorizeNetAccept7MessageC"
+- "18AuthorizeNetAccept8MessagesC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "18AuthorizeNetAccept10OpaqueDataC"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept-umbrella.h"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/build/AcceptSDK/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AuthorizeNetAccept.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ed2da1e3714cf7a6810e95b200829c46"

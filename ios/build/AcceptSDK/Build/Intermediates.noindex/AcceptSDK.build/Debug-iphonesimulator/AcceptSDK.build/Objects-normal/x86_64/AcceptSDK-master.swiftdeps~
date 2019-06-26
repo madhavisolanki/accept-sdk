@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "c2db5c14312fc8f8d890f628401c8674"
+build_time: [1561501575, 418586000]
+inputs:
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/AcceptSDK/ReactNativeView.swift": !dirty [1561498538, 863368405]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/AcceptSDK/Manager.swift": !dirty [1561501427, 425191430]
+  "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/AcceptSDK/ReactNativeViewController.swift": !dirty [1561492158, 288255591]

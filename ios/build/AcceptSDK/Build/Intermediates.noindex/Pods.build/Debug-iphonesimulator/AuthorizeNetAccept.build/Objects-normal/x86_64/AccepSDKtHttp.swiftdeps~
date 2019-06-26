@@ -1,0 +1,723 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTP_TIMEOUT"
+- "HttpRequest"
+- "HTTPErrorResponseCode"
+- "HTTPResponse"
+- "HTTP"
+provides-nominal:
+- "18AuthorizeNetAccept11HttpRequestC"
+- "18AuthorizeNetAccept21HTTPErrorResponseCodeV"
+- "18AuthorizeNetAccept12HTTPResponseC"
+- "18AuthorizeNetAccept4HTTPC"
+provides-member:
+- ["18AuthorizeNetAccept11HttpRequestC", ""]
+- ["18AuthorizeNetAccept21HTTPErrorResponseCodeV", ""]
+- ["18AuthorizeNetAccept12HTTPResponseC", ""]
+- ["18AuthorizeNetAccept4HTTPC", ""]
+- ["So19NSMutableURLRequestC", ""]
+- ["So19NSMutableURLRequestC", "setBodyContent"]
+provides-dynamic-lookup:
+- "setBodyContent"
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Data"
+- "Dictionary"
+- !private "DispatchSemaphore"
+- !private "DispatchTime"
+- "FloatLiteralType"
+- "HTTP"
+- !private "HTTPErrorKeys"
+- "HTTPErrorResponseCode"
+- "HTTPResponse"
+- !private "HTTPStatusCode"
+- !private "HTTPURLResponse"
+- "HTTP_TIMEOUT"
+- "HttpRequest"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONSerialization"
+- "NSError"
+- !private "NSLocalizedDescriptionKey"
+- "NSMutableURLRequest"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- !private "URL"
+- "URLRequest"
+- !private "URLSession"
+- !private "URLSessionConfiguration"
+- "URLSessionDelegate"
+- !private "||"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["SK", "Encoding"]
+- !private ["SK", "data"]
+- !private ["SK", "first"]
+- !private ["s7CVarArgP", "DispatchSemaphore"]
+- !private ["s7CVarArgP", "DispatchTime"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "HTTPErrorKeys"]
+- !private ["s7CVarArgP", "HTTPErrorResponseCode"]
+- !private ["s7CVarArgP", "HTTPResponse"]
+- !private ["s7CVarArgP", "HTTPStatusCode"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "NSError"]
+- !private ["s7CVarArgP", "NSLocalizedDescriptionKey"]
+- !private ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "URLSessionConfiguration"]
+- ["s7CVarArgP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "deserializeData"]
+- !private ["s7CVarArgP", "ephemeral"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "getErrorResponse"]
+- !private ["s7CVarArgP", "httpBody"]
+- !private ["s7CVarArgP", "httpMethod"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "requestSynchronousData"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "setBodyContent"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timeoutInterval"]
+- ["s7CVarArgP", "urlSession"]
+- ["s7CVarArgP", "urlSessionDidFinishEvents"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["Sl", "Encoding"]
+- !private ["Sl", "data"]
+- !private ["Sl", "first"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "Encoding"]
+- !private ["SL", "data"]
+- !private ["SL", "distantFuture"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchSemaphore"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPErrorKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPErrorResponseCode"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPStatusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedDescriptionKey"]
+- !private ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "deserializeData"]
+- !private ["s28CustomDebugStringConvertibleP", "ephemeral"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "getErrorResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "requestSynchronousData"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "setBodyContent"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutInterval"]
+- ["s28CustomDebugStringConvertibleP", "urlSession"]
+- ["s28CustomDebugStringConvertibleP", "urlSessionDidFinishEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "DispatchSemaphore"]
+- !private ["s23CustomStringConvertibleP", "DispatchTime"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "HTTPErrorKeys"]
+- !private ["s23CustomStringConvertibleP", "HTTPErrorResponseCode"]
+- !private ["s23CustomStringConvertibleP", "HTTPResponse"]
+- !private ["s23CustomStringConvertibleP", "HTTPStatusCode"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedDescriptionKey"]
+- !private ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "URLSessionConfiguration"]
+- ["s23CustomStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "deserializeData"]
+- !private ["s23CustomStringConvertibleP", "ephemeral"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "getErrorResponse"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "requestSynchronousData"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "setBodyContent"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeoutInterval"]
+- ["s23CustomStringConvertibleP", "urlSession"]
+- ["s23CustomStringConvertibleP", "urlSessionDidFinishEvents"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "Encoding"]
+- !private ["Se", "data"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "signal"]
+- !private ["So18OS_dispatch_objectC", "wait"]
+- !private ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["So21OS_dispatch_semaphoreC", "signal"]
+- !private ["So21OS_dispatch_semaphoreC", "wait"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- !private ["SE", "Encoding"]
+- !private ["SE", "data"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "DispatchSemaphore"]
+- !private ["SQ", "DispatchTime"]
+- !private ["SQ", "Encoding"]
+- !private ["SQ", "HTTPErrorKeys"]
+- !private ["SQ", "HTTPErrorResponseCode"]
+- !private ["SQ", "HTTPResponse"]
+- !private ["SQ", "HTTPStatusCode"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "NSError"]
+- !private ["SQ", "NSLocalizedDescriptionKey"]
+- !private ["SQ", "ReadingOptions"]
+- !private ["SQ", "String"]
+- ["SQ", "URLSession"]
+- !private ["SQ", "URLSessionConfiguration"]
+- ["SQ", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["SQ", ""]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "deserializeData"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "ephemeral"]
+- !private ["SQ", "first"]
+- !private ["SQ", "getErrorResponse"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "httpMethod"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "mutableContainers"]
+- !private ["SQ", "requestSynchronousData"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "setBodyContent"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "signal"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timeoutInterval"]
+- ["SQ", "urlSession"]
+- ["SQ", "urlSessionDidFinishEvents"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "wait"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "mutableContainers"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- ["18AuthorizeNetAccept4HTTPC", "AnyObject"]
+- ["18AuthorizeNetAccept4HTTPC", "Data"]
+- ["18AuthorizeNetAccept4HTTPC", "Dictionary"]
+- !private ["18AuthorizeNetAccept4HTTPC", "DispatchSemaphore"]
+- !private ["18AuthorizeNetAccept4HTTPC", "DispatchTime"]
+- !private ["18AuthorizeNetAccept4HTTPC", "HTTPErrorKeys"]
+- !private ["18AuthorizeNetAccept4HTTPC", "HTTPErrorResponseCode"]
+- ["18AuthorizeNetAccept4HTTPC", "HTTPResponse"]
+- !private ["18AuthorizeNetAccept4HTTPC", "HTTPStatusCode"]
+- !private ["18AuthorizeNetAccept4HTTPC", "HTTPURLResponse"]
+- ["18AuthorizeNetAccept4HTTPC", "HttpRequest"]
+- !private ["18AuthorizeNetAccept4HTTPC", "JSONSerialization"]
+- !private ["18AuthorizeNetAccept4HTTPC", "NSError"]
+- !private ["18AuthorizeNetAccept4HTTPC", "NSLocalizedDescriptionKey"]
+- !private ["18AuthorizeNetAccept4HTTPC", "NSMutableURLRequest"]
+- ["18AuthorizeNetAccept4HTTPC", "String"]
+- ["18AuthorizeNetAccept4HTTPC", "URLRequest"]
+- ["18AuthorizeNetAccept4HTTPC", "URLSession"]
+- !private ["18AuthorizeNetAccept4HTTPC", "URLSessionConfiguration"]
+- ["18AuthorizeNetAccept4HTTPC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["18AuthorizeNetAccept4HTTPC", "deinit"]
+- !private ["18AuthorizeNetAccept4HTTPC", "deserializeData"]
+- !private ["18AuthorizeNetAccept4HTTPC", "getErrorResponse"]
+- ["18AuthorizeNetAccept4HTTPC", "init"]
+- ["18AuthorizeNetAccept4HTTPC", "request"]
+- !private ["18AuthorizeNetAccept4HTTPC", "requestSynchronousData"]
+- !private ["18AuthorizeNetAccept4HTTPC", "serializeJson"]
+- ["18AuthorizeNetAccept4HTTPC", "urlSession"]
+- ["18AuthorizeNetAccept4HTTPC", "urlSessionDidFinishEvents"]
+- ["18AuthorizeNetAccept21HTTPErrorResponseCodeV", "apiErrorResponseCode"]
+- ["18AuthorizeNetAccept21HTTPErrorResponseCodeV", "init"]
+- ["18AuthorizeNetAccept21HTTPErrorResponseCodeV", "kErrorDictionaryKey"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "AnyObject"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "Dictionary"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "Int"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "NSError"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "String"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "body"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "code"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "error"]
+- ["18AuthorizeNetAccept12HTTPResponseC", "init"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "DispatchSemaphore"]
+- !private ["SH", "DispatchTime"]
+- !private ["SH", "Encoding"]
+- !private ["SH", "HTTPErrorKeys"]
+- !private ["SH", "HTTPErrorResponseCode"]
+- !private ["SH", "HTTPResponse"]
+- !private ["SH", "HTTPStatusCode"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "NSError"]
+- !private ["SH", "NSLocalizedDescriptionKey"]
+- !private ["SH", "ReadingOptions"]
+- !private ["SH", "String"]
+- ["SH", "URLSession"]
+- !private ["SH", "URLSessionConfiguration"]
+- ["SH", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["SH", ""]
+- !private ["SH", "data"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "deserializeData"]
+- !private ["SH", "ephemeral"]
+- !private ["SH", "first"]
+- !private ["SH", "getErrorResponse"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "httpMethod"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "requestSynchronousData"]
+- !private ["SH", "resume"]
+- !private ["SH", "setBodyContent"]
+- !private ["SH", "setValue"]
+- !private ["SH", "signal"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timeoutInterval"]
+- ["SH", "urlSession"]
+- ["SH", "urlSessionDidFinishEvents"]
+- !private ["SH", "utf8"]
+- !private ["SH", "wait"]
+- ["18AuthorizeNetAccept11HttpRequestC", "AnyObject"]
+- ["18AuthorizeNetAccept11HttpRequestC", "Dictionary"]
+- !private ["18AuthorizeNetAccept11HttpRequestC", "HTTP_TIMEOUT"]
+- ["18AuthorizeNetAccept11HttpRequestC", "NSMutableURLRequest"]
+- ["18AuthorizeNetAccept11HttpRequestC", "String"]
+- !private ["18AuthorizeNetAccept11HttpRequestC", "URL"]
+- ["18AuthorizeNetAccept11HttpRequestC", "bodyParameters"]
+- ["18AuthorizeNetAccept11HttpRequestC", "httpHeaders"]
+- ["18AuthorizeNetAccept11HttpRequestC", "init"]
+- ["18AuthorizeNetAccept11HttpRequestC", "method"]
+- ["18AuthorizeNetAccept11HttpRequestC", "url"]
+- ["18AuthorizeNetAccept11HttpRequestC", "urlRequest"]
+- !private ["So19NSJSONSerializationC", "ReadingOptions"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "httpBody"]
+- !private ["So8NSCodingP", "httpMethod"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setBodyContent"]
+- !private ["So8NSCodingP", "setValue"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "timeoutInterval"]
+- !private ["So9NSCopyingP", "String"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "ephemeral"]
+- !private ["So9NSCopyingP", "httpBody"]
+- !private ["So9NSCopyingP", "httpMethod"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "setBodyContent"]
+- !private ["So9NSCopyingP", "setValue"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So9NSCopyingP", "timeoutInterval"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "String"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "httpBody"]
+- !private ["So16NSMutableCopyingP", "httpMethod"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "setBodyContent"]
+- !private ["So16NSMutableCopyingP", "setValue"]
+- !private ["So16NSMutableCopyingP", "timeoutInterval"]
+- ["So19NSMutableURLRequestC", "String"]
+- !private ["So19NSMutableURLRequestC", "httpBody"]
+- !private ["So19NSMutableURLRequestC", "httpMethod"]
+- !private ["So19NSMutableURLRequestC", "init"]
+- ["So19NSMutableURLRequestC", "setBodyContent"]
+- !private ["So19NSMutableURLRequestC", "setValue"]
+- !private ["So19NSMutableURLRequestC", "timeoutInterval"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Dictionary"]
+- !private ["So8NSObjectC", "DispatchSemaphore"]
+- !private ["So8NSObjectC", "DispatchTime"]
+- !private ["So8NSObjectC", "HTTPErrorKeys"]
+- !private ["So8NSObjectC", "HTTPErrorResponseCode"]
+- ["So8NSObjectC", "HTTPResponse"]
+- !private ["So8NSObjectC", "HTTPStatusCode"]
+- !private ["So8NSObjectC", "HTTPURLResponse"]
+- ["So8NSObjectC", "HttpRequest"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSLocalizedDescriptionKey"]
+- !private ["So8NSObjectC", "NSMutableURLRequest"]
+- !private ["So8NSObjectC", "ReadingOptions"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "URLSessionConfiguration"]
+- ["So8NSObjectC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "deserializeData"]
+- !private ["So8NSObjectC", "ephemeral"]
+- ["So8NSObjectC", "getErrorResponse"]
+- !private ["So8NSObjectC", "httpBody"]
+- !private ["So8NSObjectC", "httpMethod"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- ["So8NSObjectC", "request"]
+- ["So8NSObjectC", "requestSynchronousData"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "serializeJson"]
+- ["So8NSObjectC", "setBodyContent"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "timeoutInterval"]
+- ["So8NSObjectC", "urlSession"]
+- ["So8NSObjectC", "urlSessionDidFinishEvents"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So8NSObjectP", "DispatchSemaphore"]
+- !private ["So8NSObjectP", "DispatchTime"]
+- !private ["So8NSObjectP", "HTTPErrorKeys"]
+- !private ["So8NSObjectP", "HTTPErrorResponseCode"]
+- !private ["So8NSObjectP", "HTTPResponse"]
+- !private ["So8NSObjectP", "HTTPStatusCode"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- !private ["So8NSObjectP", "NSError"]
+- !private ["So8NSObjectP", "NSLocalizedDescriptionKey"]
+- !private ["So8NSObjectP", "ReadingOptions"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "URLSession"]
+- !private ["So8NSObjectP", "URLSessionConfiguration"]
+- ["So8NSObjectP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "deserializeData"]
+- !private ["So8NSObjectP", "ephemeral"]
+- !private ["So8NSObjectP", "getErrorResponse"]
+- !private ["So8NSObjectP", "httpBody"]
+- !private ["So8NSObjectP", "httpMethod"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "requestSynchronousData"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setBodyContent"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "signal"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "timeoutInterval"]
+- ["So8NSObjectP", "urlSession"]
+- ["So8NSObjectP", "urlSessionDidFinishEvents"]
+- !private ["So8NSObjectP", "wait"]
+- !private ["So14NSSecureCodingP", "String"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "httpBody"]
+- !private ["So14NSSecureCodingP", "httpMethod"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "setBodyContent"]
+- !private ["So14NSSecureCodingP", "setValue"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So14NSSecureCodingP", "timeoutInterval"]
+- !private ["So8NSStringC", "data"]
+- ["So12NSURLRequestC", "String"]
+- !private ["So12NSURLRequestC", "httpBody"]
+- !private ["So12NSURLRequestC", "httpMethod"]
+- !private ["So12NSURLRequestC", "init"]
+- ["So12NSURLRequestC", "setBodyContent"]
+- !private ["So12NSURLRequestC", "setValue"]
+- !private ["So12NSURLRequestC", "timeoutInterval"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["s9OptionSetP", "mutableContainers"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", "first"]
+- !private ["Sm", "Encoding"]
+- !private ["Sm", "data"]
+- !private ["Sm", "first"]
+- !private ["SY", "mutableContainers"]
+- !private ["SY", "utf8"]
+- !private ["So20NSJSONReadingOptionsV", "mutableContainers"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "Encoding"]
+- !private ["ST", "data"]
+- !private ["ST", "first"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "mutableContainers"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "data"]
+- !private ["Sy", "Encoding"]
+- !private ["Sy", "data"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "init"]
+- !private ["So25NSURLSessionConfigurationC", "ephemeral"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So20NSURLSessionDelegateP", "DispatchSemaphore"]
+- !private ["So20NSURLSessionDelegateP", "DispatchTime"]
+- !private ["So20NSURLSessionDelegateP", "HTTPErrorKeys"]
+- !private ["So20NSURLSessionDelegateP", "HTTPErrorResponseCode"]
+- !private ["So20NSURLSessionDelegateP", "HTTPResponse"]
+- !private ["So20NSURLSessionDelegateP", "HTTPStatusCode"]
+- !private ["So20NSURLSessionDelegateP", "JSONSerialization"]
+- !private ["So20NSURLSessionDelegateP", "NSError"]
+- !private ["So20NSURLSessionDelegateP", "NSLocalizedDescriptionKey"]
+- ["So20NSURLSessionDelegateP", "URLSession"]
+- !private ["So20NSURLSessionDelegateP", "URLSessionConfiguration"]
+- ["So20NSURLSessionDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So20NSURLSessionDelegateP", ""]
+- !private ["So20NSURLSessionDelegateP", "deserializeData"]
+- !private ["So20NSURLSessionDelegateP", "getErrorResponse"]
+- !private ["So20NSURLSessionDelegateP", "requestSynchronousData"]
+- ["So20NSURLSessionDelegateP", "urlSession"]
+- ["So20NSURLSessionDelegateP", "urlSessionDidFinishEvents"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "String"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpBody"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpMethod"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "setBodyContent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "setValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeoutInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchSemaphore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HTTPErrorKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HTTPErrorResponseCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HTTPResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HTTPStatusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedDescriptionKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deserializeData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ephemeral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getErrorResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestSynchronousData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBodyContent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeoutInterval"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSessionDidFinishEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So21OS_dispatch_semaphoreC"
+- !private "8Dispatch0A4TimeV"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "18AuthorizeNetAccept4HTTPC"
+- "18AuthorizeNetAccept21HTTPErrorResponseCodeV"
+- "18AuthorizeNetAccept12HTTPResponseC"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- "18AuthorizeNetAccept11HttpRequestC"
+- !private "So19NSJSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So19NSMutableURLRequestC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So12NSURLRequestC"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So25NSURLSessionConfigurationC"
+- !private "So20NSURLSessionDataTaskC"
+- "So20NSURLSessionDelegateP"
+- !private "So16NSURLSessionTaskC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept-umbrella.h"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/build/AcceptSDK/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AuthorizeNetAccept.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6bd29d9a006fa0189eeb70242bdadc85"

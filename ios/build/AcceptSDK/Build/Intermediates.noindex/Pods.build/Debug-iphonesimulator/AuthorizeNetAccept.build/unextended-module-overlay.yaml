@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/build/AcceptSDK/Build/Products/Debug-iphonesimulator/AuthorizeNetAccept/AuthorizeNetAccept.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/build/AcceptSDK/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AuthorizeNetAccept.build/unextended-module.modulemap",
+    }]
+  }]
+}

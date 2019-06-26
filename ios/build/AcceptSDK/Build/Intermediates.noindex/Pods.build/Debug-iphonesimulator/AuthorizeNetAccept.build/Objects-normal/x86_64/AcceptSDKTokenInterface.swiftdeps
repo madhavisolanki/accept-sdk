@@ -1,0 +1,162 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AcceptSDKTokenInterface"
+provides-nominal:
+- "18AuthorizeNetAccept0C17SDKTokenInterfaceC"
+provides-member:
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AcceptSDKBaseInterface"
+- "AcceptSDKCompletionHandlers"
+- "AcceptSDKErrorResponse"
+- "AcceptSDKRequest"
+- !private "AcceptSDKResponse"
+- !private "AcceptSDKTokenAPIBuilder"
+- "AcceptSDKTokenInterface"
+- !private "AcceptSDKTokenInterfaceBuilder"
+- !private "AcceptSDKTokenResponse"
+- "AnyObject"
+- "Bool"
+- "CastingPrecedence"
+- "Dictionary"
+- !private "HttpConnection"
+- !private "NSError"
+- "String"
+- !private "print"
+depends-member:
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AcceptSDKCompletionHandlers"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AcceptSDKErrorResponse"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AcceptSDKRequest"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AcceptSDKResponse"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AcceptSDKTokenAPIBuilder"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AcceptSDKTokenInterfaceBuilder"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AcceptSDKTokenResponse"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "AnyObject"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "Bool"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "Dictionary"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "HttpConnection"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "NSError"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "String"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", ""]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "getToken"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "handleResponse"]
+- ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "init"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "init"]
+- !private ["18AuthorizeNetAccept0C16SDKBaseInterfaceC", "print"]
+- !private ["18AuthorizeNetAccept0C23SDKBaseInterfaceBuilderC", "getRequestJSONString"]
+- !private ["18AuthorizeNetAccept0C23SDKBaseInterfaceBuilderC", "init"]
+- !private ["18AuthorizeNetAccept0C17SDKBaseURLBuilderC", "getTokenAPIUrl"]
+- !private ["18AuthorizeNetAccept0C17SDKBaseURLBuilderC", "init"]
+- ["18AuthorizeNetAccept0C21SDKCompletionHandlersV", "AcceptSDKSuccessHandler"]
+- !private ["18AuthorizeNetAccept0C16SDKErrorResponseC", "init"]
+- !private ["18AuthorizeNetAccept0C11SDKResponseV", "kMessagesKey"]
+- !private ["18AuthorizeNetAccept0C11SDKResponseV", "kResultCodeErrorValueKey"]
+- !private ["18AuthorizeNetAccept0C11SDKResponseV", "kResultCodeKey"]
+- !private ["18AuthorizeNetAccept0C11SDKResponseV", "kResultCodeOkValueKey"]
+- !private ["18AuthorizeNetAccept0C18SDKTokenAPIBuilderC", "getTokenAPIUrl"]
+- !private ["18AuthorizeNetAccept0C18SDKTokenAPIBuilderC", "init"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AcceptSDKCompletionHandlers"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AcceptSDKErrorResponse"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AcceptSDKRequest"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AcceptSDKResponse"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AcceptSDKTokenAPIBuilder"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AcceptSDKTokenInterfaceBuilder"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AcceptSDKTokenResponse"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "AnyObject"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "Bool"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "Dictionary"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "HttpConnection"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "NSError"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "String"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "getToken"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "handleResponse"]
+- ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "init"]
+- !private ["18AuthorizeNetAccept0C17SDKTokenInterfaceC", "print"]
+- !private ["18AuthorizeNetAccept0C24SDKTokenInterfaceBuilderC", "getRequestJSONString"]
+- !private ["18AuthorizeNetAccept0C24SDKTokenInterfaceBuilderC", "init"]
+- !private ["18AuthorizeNetAccept0C16SDKTokenResponseC", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["18AuthorizeNetAccept14HttpConnectionC", "init"]
+- !private ["18AuthorizeNetAccept14HttpConnectionC", "performPostRequest"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["ST", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "18AuthorizeNetAccept0C16SDKBaseInterfaceC"
+- !private "18AuthorizeNetAccept0C23SDKBaseInterfaceBuilderC"
+- !private "18AuthorizeNetAccept0C17SDKBaseURLBuilderC"
+- "18AuthorizeNetAccept0C21SDKCompletionHandlersV"
+- !private "18AuthorizeNetAccept0C16SDKErrorResponseC"
+- !private "18AuthorizeNetAccept0C11SDKResponseV"
+- !private "18AuthorizeNetAccept0C18SDKTokenAPIBuilderC"
+- "18AuthorizeNetAccept0C17SDKTokenInterfaceC"
+- !private "18AuthorizeNetAccept0C24SDKTokenInterfaceBuilderC"
+- !private "18AuthorizeNetAccept0C16SDKTokenResponseC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "SH"
+- !private "18AuthorizeNetAccept14HttpConnectionC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "ST"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+- !private "subscript"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/Pods/Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept-umbrella.h"
+- "/Users/madhavisolanki/Work/React Native/AcceptSDK/ios/build/AcceptSDK/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AuthorizeNetAccept.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "49e0d7c2eed8a01dedf0d34a46d87d01"
