@@ -6,6 +6,38 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>2295EFA9-7C17-49E5-BF78-4C9824C3F4EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2295EFA9-7C17-49E5-BF78-4C9824C3F4EF.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AcceptSDK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AcceptSDK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace AcceptSDK with scheme AcceptSDK and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>583253749.83649397</real>
+			<key>timeStoppedRecording</key>
+			<real>583253866.94131398</real>
+			<key>title</key>
+			<string>Building workspace AcceptSDK with scheme AcceptSDK and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>2295EFA9-7C17-49E5-BF78-4C9824C3F4EF</string>
+		</dict>
 		<key>56603FA2-C279-4836-8934-E568246F37C8</key>
 		<dict>
 			<key>className</key>
