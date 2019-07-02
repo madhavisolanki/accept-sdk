@@ -9,6 +9,7 @@ import com.facebook.react.bridge.ReactMethod;
 import net.authorize.acceptsdk.AcceptSDKApiClient;
 import net.authorize.acceptsdk.AcceptSDKApiClient.Builder;
 
+import net.authorize.acceptsdk.ValidationManager;
 import net.authorize.acceptsdk.datamodel.common.Message;
 import net.authorize.acceptsdk.datamodel.transaction.EncryptTransactionObject;
 import net.authorize.acceptsdk.datamodel.merchant.ClientKeyBasedMerchantAuthentication;
@@ -23,8 +24,6 @@ import com.facebook.react.bridge.Promise;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import org.json.JSONException;
-import org.json.JSONObject;
 
 
 public class RNAcceptModule extends ReactContextBaseJavaModule {
@@ -89,6 +88,41 @@ public class RNAcceptModule extends ReactContextBaseJavaModule {
             p.reject("0", "Unknown Error: " + e.getStackTrace());
             e.printStackTrace();
         }
+    }
+
+    @ReactMethod
+    public boolean isValidCardNumber(String cardNumber)  {
+        return ValidationManager.isValidCardNumber(cardNumber);
+    }
+
+    @ReactMethod
+    public boolean isValidExpirationMonth(String month) {
+        return ValidationManager.isValidExpirationMonth(month);
+    }
+
+    @ReactMethod
+    public boolean isValidExpirationYear(String year){
+        return ValidationManager.isValidExpirationYear(year);
+    }
+
+    @ReactMethod
+    public boolean isValidExpirationDate(String month, String year){
+        return ValidationManager.isValidExpirationDate(month, year);
+    }
+
+    @ReactMethod
+    public boolean isValidCVV(String cvvCode){
+        return ValidationManager.isValidCVV(cvvCode);
+    }
+
+    @ReactMethod
+    public boolean isValidZipCode(String zipCode){
+        return ValidationManager.isValidZipCode(zipCode);
+    }
+
+    @ReactMethod
+    public boolean isValidCardHolderName(String fullName){
+        return ValidationManager.isValidCardHolderName(fullName);
     }
 
     @Override
