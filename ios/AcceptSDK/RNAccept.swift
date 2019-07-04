@@ -1,22 +1,69 @@
 //
-//  Manager.swift
+//  RNAccept.swift
 //  AcceptSDK
 //
-//  Created by Madhavi  Solanki on 26/06/19.
-//  Copyright © 2019 Facebook. All rights reserved.
+//  Created by Madhavi  Solanki on 26/06/18.
+//  Copyright © 2018 Facebook. All rights reserved.
 //
 
 import Foundation
 import UIKit
 import PassKit
+import AuthorizeNetAccept
 
-@objc(Manager)
-class Manager: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
+
+@objc(RNAccept)
+class RNAccept: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
+  var clientKey:String = ""
+  var clientName:String = ""
+  var env:AcceptSDKEnvironment = AcceptSDKEnvironment.ENV_TEST
   
   @objc let SupportedPaymentNetworks = [PKPaymentNetwork.visa, PKPaymentNetwork.masterCard, PKPaymentNetwork.amex]
 
   @objc func methodQueue() ->  DispatchQueue {
     return DispatchQueue.main
+  }
+  
+  @objc func configure(_ clientName: NSString,
+                       clientKey: NSString,
+                       isProduction: Bool) -> Void {
+    self.clientName = clientName as String
+    self.clientKey = clientKey as String
+    self.env = isProduction ? AcceptSDKEnvironment.ENV_LIVE : AcceptSDKEnvironment.ENV_TEST
+  }
+  
+  @objc func doCardPayment(_ cardNumber: NSString,
+                           expirationMonth: NSString,
+                           expirationYear: NSString,
+                           cvvCode: NSString,
+                          resolver resolve: @escaping RCTPromiseResolveBlock,
+                          rejecter reject: @escaping RCTPromiseRejectBlock) -> Void {
+    
+    let handler = AcceptSDKHandler(environment: self.env)
+    
+    let request = AcceptSDKRequest()
+    request.merchantAuthentication.name = self.clientName
+    request.merchantAuthentication.clientKey = self.clientKey
+    
+    request.securePaymentContainerRequest.webCheckOutDataType.token.cardNumber = cardNumber as String
+    request.securePaymentContainerRequest.webCheckOutDataType.token.expirationMonth = expirationMonth as String
+    request.securePaymentContainerRequest.webCheckOutDataType.token.expirationYear = expirationYear as String
+    request.securePaymentContainerRequest.webCheckOutDataType.token.cardCode = cvvCode as String
+    
+    handler!.getTokenWithRequest(request, successHandler: { (inResponse:AcceptSDKTokenResponse) -> () in
+      DispatchQueue.main.async(execute: {
+        print("Token--->%@", inResponse.getOpaqueData().getDataValue())
+        var output = String(format: "Response: %@\nData Value: %@ \nDescription: %@", inResponse.getMessages().getResultCode(), inResponse.getOpaqueData().getDataValue(), inResponse.getOpaqueData().getDataDescriptor())
+        output = output + String(format: "\nMessage Code: %@\nMessage Text: %@", inResponse.getMessages().getMessages()[0].getCode(), inResponse.getMessages().getMessages()[0].getText())
+        resolve(output)
+      })
+    }) { (inError:AcceptSDKErrorResponse) -> () in
+      DispatchQueue.main.async(execute: {
+        let output = String(format: "Response:  %@\nError code: %@\nError text:   %@", inError.getMessages().getResultCode(), inError.getMessages().getMessages()[0].getCode(), inError.getMessages().getMessages()[0].getText())
+        print(output)
+  //      reject(inError.getMessages().getResultCode(),inError.getMessages().getMessages()[0].getText(), inError)
+      })
+    }
   }
   
   @objc func getAPI() {

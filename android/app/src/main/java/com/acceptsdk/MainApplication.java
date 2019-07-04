@@ -21,9 +21,11 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+      final List<ReactPackage> reactPackages = Arrays.<ReactPackage>asList(
+              new MainReactPackage(),
+              new RNAcceptPackage()
       );
+      return reactPackages;
     }
 
     @Override

@@ -18,7 +18,6 @@
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
@@ -40,9 +39,10 @@
 		6200AD7522C2B20300107CD7 /* ReactNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AD7422C2B20300107CD7 /* ReactNativeView.swift */; };
 		6200AD9C22C2B23300107CD7 /* ReactNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AD9B22C2B23300107CD7 /* ReactNativeViewController.swift */; };
 		6200AD9E22C2B29300107CD7 /* ReactNativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6200AD9D22C2B29300107CD7 /* ReactNativeBridge.m */; };
-		6200ADA022C2B2B800107CD7 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AD9F22C2B2B800107CD7 /* Manager.swift */; };
+		6200ADA022C2B2B800107CD7 /* RNAccept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AD9F22C2B2B800107CD7 /* RNAccept.swift */; };
 		6200ADEC22C2BB5E00107CD7 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		6200ADED22C2BBA000107CD7 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		732271DB8EF05AEEF99879EF /* Pods_AcceptSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977CBC4F94D016E62ECAB726 /* Pods_AcceptSDKTests.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -450,7 +450,6 @@
 		13B07F961A680F5B00A75B9A /* AcceptSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AcceptSDK/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AcceptSDK/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AcceptSDK/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AcceptSDK/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AcceptSDK/main.m; sourceTree = "<group>"; };
@@ -466,7 +465,7 @@
 		6200AD7422C2B20300107CD7 /* ReactNativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReactNativeView.swift; path = AcceptSDK/ReactNativeView.swift; sourceTree = "<group>"; };
 		6200AD9B22C2B23300107CD7 /* ReactNativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReactNativeViewController.swift; path = AcceptSDK/ReactNativeViewController.swift; sourceTree = "<group>"; };
 		6200AD9D22C2B29300107CD7 /* ReactNativeBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ReactNativeBridge.m; path = AcceptSDK/ReactNativeBridge.m; sourceTree = "<group>"; };
-		6200AD9F22C2B2B800107CD7 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = AcceptSDK/Manager.swift; sourceTree = "<group>"; };
+		6200AD9F22C2B2B800107CD7 /* RNAccept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RNAccept.swift; path = AcceptSDK/RNAccept.swift; sourceTree = "<group>"; };
 		6200AE0422C2D1E400107CD7 /* AuthorizeNetAccept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AuthorizeNetAccept.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6200AE0622C2D1E400107CD7 /* DoubleConversion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DoubleConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6200AE0822C2D1E400107CD7 /* folly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = folly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -476,6 +475,7 @@
 		62FF2BB76742FD8486106F11 /* Pods-AcceptSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptSDKTests.release.xcconfig"; path = "Target Support Files/Pods-AcceptSDKTests/Pods-AcceptSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		977CBC4F94D016E62ECAB726 /* Pods_AcceptSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9DEA5BE5A740C215CA76A2 /* Pods_AcceptSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -488,6 +488,7 @@
 			files = (
 				6200ADED22C2BBA000107CD7 /* JavaScriptCore.framework in Frameworks */,
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				732271DB8EF05AEEF99879EF /* Pods_AcceptSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,13 +626,12 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				6200AD7422C2B20300107CD7 /* ReactNativeView.swift */,
 				6200AD9B22C2B23300107CD7 /* ReactNativeViewController.swift */,
 				6200AD7322C2B20200107CD7 /* AcceptSDK-Bridging-Header.h */,
 				6200AD9D22C2B29300107CD7 /* ReactNativeBridge.m */,
-				6200AD9F22C2B2B800107CD7 /* Manager.swift */,
+				6200AD9F22C2B2B800107CD7 /* RNAccept.swift */,
 			);
 			name = AcceptSDK;
 			sourceTree = "<group>";
@@ -670,6 +670,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				AC9DEA5BE5A740C215CA76A2 /* Pods_AcceptSDK.framework */,
+				977CBC4F94D016E62ECAB726 /* Pods_AcceptSDKTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -882,7 +883,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = QC422NX5T7;
+						DevelopmentTeam = EJP4AZ8VGE;
 						LastSwiftMigration = 1020;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -1360,7 +1361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1415,8 +1415,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AcceptSDK/Pods-AcceptSDK-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AuthorizeNetAccept/AuthorizeNetAccept.framework",
@@ -1427,8 +1425,6 @@
 				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AuthorizeNetAccept.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
@@ -1502,7 +1498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6200AD7522C2B20300107CD7 /* ReactNativeView.swift in Sources */,
-				6200ADA022C2B2B800107CD7 /* Manager.swift in Sources */,
+				6200ADA022C2B2B800107CD7 /* RNAccept.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				6200AD9E22C2B29300107CD7 /* ReactNativeBridge.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
@@ -1541,18 +1537,6 @@
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = AcceptSDK;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
@@ -1609,8 +1593,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = QC422NX5T7;
+				DEVELOPMENT_TEAM = EJP4AZ8VGE;
 				INFOPLIST_FILE = AcceptSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1622,6 +1607,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "AcceptSDK-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1634,8 +1620,9 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QC422NX5T7;
+				DEVELOPMENT_TEAM = EJP4AZ8VGE;
 				INFOPLIST_FILE = AcceptSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1646,6 +1633,7 @@
 				PRODUCT_NAME = AcceptSDK;
 				SWIFT_OBJC_BRIDGING_HEADER = "AcceptSDK-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

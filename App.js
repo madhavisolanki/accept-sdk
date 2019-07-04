@@ -9,6 +9,10 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, NativeModules, Button,AppRegistry} from 'react-native';
 
+
+const RNAccept = NativeModules.RNAccept;
+RNAccept.configure('6AB64hcB', '6gSuV295YD86Mq4d86zEsx8C839uMVVjfXm9N4wr6DRuhTHpDU97NFyKtfZncUq8');
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -19,10 +23,19 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
 
-  onPressLearnMore() {
-    if (Platform.OS === 'ios') {
-      NativeModules.Manager.getAPI()
+  async onPressLearnMore() {
+    try {
+      let response = await RNAccept.doCardPayment(
+        '4363931500464698',
+        '11',
+        '23',
+        '496'
+      );
+      console.log('Response is ', response);
+    } catch(e) {
+      console.log('Error is ', e)
     }
+    
   }
   render() {
     return (
@@ -33,7 +46,7 @@ export default class App extends Component<Props> {
         <Text style={styles.hello}>Hello React Native</Text>
         <Button   
            onPress={this.onPressLearnMore}   
-           title="Learn More"   
+           title="Learn Moreasdfasdfasdf"   
            color="#841584"
         />
       </View>
