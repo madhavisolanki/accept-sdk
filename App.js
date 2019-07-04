@@ -24,10 +24,6 @@ type Props = {};
 export default class App extends Component<Props> {
 
   async onPressLearnMore() {
-    if (Platform.OS === 'ios') {
-      NativeModules.Manager.getAPI()
-    }
-
     try {
       let response = await RNAccept.doCardPayment(
         '4363931500464698',
