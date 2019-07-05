@@ -26,16 +26,25 @@ export default class App extends Component<Props> {
   async onPressLearnMore() {
     try {
       let response = await RNAccept.doCardPayment(
-        '4363931500464698',
+        '4361235460436582',
         '11',
         '23',
-        '496'
+        '125'
       );
       console.log('Response is ', response);
     } catch(e) {
       console.log('Error is ', e)
     }
     
+  }
+
+  async onApplePay () {
+    try {
+      let response = await RNAccept.doApplePay();
+      console.log('Apple pay Response is ', response);
+    } catch(e) {
+      console.log('Error is ', e)
+    }
   }
   render() {
     return (
@@ -47,6 +56,12 @@ export default class App extends Component<Props> {
         <Button   
            onPress={this.onPressLearnMore}   
            title="Learn Moreasdfasdfasdf"   
+           color="#841584"
+        />
+
+        <Button   
+           onPress={this.onApplePay}   
+           title="Apple Pay"   
            color="#841584"
         />
       </View>
