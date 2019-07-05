@@ -14,9 +14,12 @@ import AuthorizeNetAccept
 
 @objc(RNAccept)
 class RNAccept: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
-  var clientKey:String = ""
-  var clientName:String = ""
-  var env:AcceptSDKEnvironment = AcceptSDKEnvironment.ENV_TEST
+  @objc
+  static var clientKey:String = ""
+  @objc
+  static var clientName:String = ""
+  @objc
+  static var env:AcceptSDKEnvironment = AcceptSDKEnvironment.ENV_TEST
   
   @objc let SupportedPaymentNetworks = [PKPaymentNetwork.visa, PKPaymentNetwork.masterCard, PKPaymentNetwork.amex]
 
@@ -24,12 +27,16 @@ class RNAccept: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
     return DispatchQueue.main
   }
   
+  @objc
+  static func requiresMainQueueSetup() -> Bool {
+    return true
+  }
+  
   @objc func configure(_ clientName: NSString,
-                       clientKey: NSString,
-                       isProduction: Bool) -> Void {
-    self.clientName = clientName as String
-    self.clientKey = clientKey as String
-    self.env = isProduction ? AcceptSDKEnvironment.ENV_LIVE : AcceptSDKEnvironment.ENV_TEST
+                           clientKey: NSString) -> Void {
+    RNAccept.clientName = clientName as String
+    RNAccept.clientKey = clientKey as String
+    RNAccept.env = AcceptSDKEnvironment.ENV_TEST
   }
   
   @objc func doCardPayment(_ cardNumber: NSString,
@@ -39,11 +46,11 @@ class RNAccept: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
                           resolver resolve: @escaping RCTPromiseResolveBlock,
                           rejecter reject: @escaping RCTPromiseRejectBlock) -> Void {
     
-    let handler = AcceptSDKHandler(environment: self.env)
+    let handler = AcceptSDKHandler(environment: RNAccept.env)
     
     let request = AcceptSDKRequest()
-    request.merchantAuthentication.name = self.clientName
-    request.merchantAuthentication.clientKey = self.clientKey
+    request.merchantAuthentication.name = RNAccept.clientName
+    request.merchantAuthentication.clientKey = RNAccept.clientKey
     
     request.securePaymentContainerRequest.webCheckOutDataType.token.cardNumber = cardNumber as String
     request.securePaymentContainerRequest.webCheckOutDataType.token.expirationMonth = expirationMonth as String
@@ -59,26 +66,27 @@ class RNAccept: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
       })
     }) { (inError:AcceptSDKErrorResponse) -> () in
       DispatchQueue.main.async(execute: {
-        let output = String(format: "Response:  %@\nError code: %@\nError text:   %@", inError.getMessages().getResultCode(), inError.getMessages().getMessages()[0].getCode(), inError.getMessages().getMessages()[0].getText())
-        print(output)
-  //      reject(inError.getMessages().getResultCode(),inError.getMessages().getMessages()[0].getText(), inError)
+        let error = NSError(domain: "",
+                            code: 0,
+                            userInfo: nil)
+
+        reject(inError.getMessages().getResultCode(),inError.getMessages().getMessages()[0].getText(), error)
       })
     }
   }
   
-  @objc func getAPI() {
+  @objc func doApplePay(resolver resolve: @escaping RCTPromiseResolveBlock,
+                        rejecter reject: @escaping RCTPromiseRejectBlock) {
     let supportedNetworks = [ PKPaymentNetwork.amex, PKPaymentNetwork.masterCard, PKPaymentNetwork.visa ]
     
     if PKPaymentAuthorizationViewController.canMakePayments() == false {
-      let alert = UIAlertController(title: "Apple Pay is not available", message: nil, preferredStyle: .alert)
-      alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-      //return self.present(alert, animated: true, completion: nil)
+      let err = NSError(domain: "", code: 0, userInfo: nil)
+      reject("0", "Apple pay is not available", err)
     }
     
     if PKPaymentAuthorizationViewController.canMakePayments(usingNetworks: supportedNetworks) == false {
-      let alert = UIAlertController(title: "No Apple Pay payment methods available", message: nil, preferredStyle: .alert)
-      alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-     // return self.present(alert, animated: true, completion: nil)
+      let err = NSError(domain: "", code: 0, userInfo: nil)
+      reject("0", "No Apple Pay payment methods available", err)
     }
     
     let request = PKPaymentRequest()
